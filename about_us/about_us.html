@@ -1,0 +1,99 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="screen and (max-width: 1000px) " href="../css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 1001px)" href="../css/big.css">
+    <link rel="  stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @media screen and (min-width: 1001px) {
+            .about_us_button{
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<script>
+    function menuFunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+</script>
+<header >
+    <div class="big header_flex" >
+        <div>
+            <a href="../reserve/reserve.html"><div class="button_style"><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+            <a href="../reserve/reserve.html"><div class="button_hover" style="margin-top: 20px"><p class="header_text_style button_text_position1">رزرو میز</p></div></a>
+        </div>
+        <div class="header_menu_flex">
+            <a href="../main_page/phase1.html" class="header_menu_flex_item header_text_style" >صفحه نخست</a>
+            <a href="about_us.html" class="header_menu_flex_item header_text_style">درباره ما</a>
+            <a href="../our_menu/our_menu.html" class="header_menu_flex_item header_text_style">منوی رستوران</a>
+            <a href="../gallery/gallery.html" class="header_menu_flex_item header_text_style">گالری</a>
+            <a href="../contact_us/contact_us.html" class="header_menu_flex_item header_text_style">تماس با ما</a>
+        </div>
+        <div class="header_name_flex">
+            <p class="header_text_style">کافه رستوران رایکا</p>
+            <img src="header_icon.png" class="header_icon">
+        </div>
+    </div>
+
+    <div class="topnav_small ">
+        <div class="topnav small ">
+            <div id="menu" >
+                <a href="../main_page/phase1.html" target="_blank" class="a-nav"><p class="menu_text" >صفحه نخست</p></a>
+                <a href="about_us.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 80px">درباره ی ما</p></a>
+                <a href="../our_menu/our_menu.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 110px">منوی رستوران</p></a>
+                <a href="../gallery/gallery.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 140px">گالری</p></a>
+                <a href="../contact_us/contact_us.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 170px">تماس با ما</p></a>
+                <div>
+                    <a href="../reserve/reserve.html"><div class="button_style" style="margin-top: 200px" ><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+                    <a href="../reserve/reserve.html"><div class="button_hover" style="margin-top: 200px" ><p class="header_text_style_all button_text_position1">رزرو میز</p></div></a>
+                </div>
+            </div>
+            <a class="icon a-nav " onclick="menuFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="topnav_name_flex " >
+            <p class="header_text_style_all">کافه رستوران رایکا</p>
+            <img src="header_icon.png" class="header_icon">
+        </div>
+    </div>
+</header>
+<div class="line big"></div>
+    <div class="about_us_flex">
+        <div align="right" style="margin-top: 20px">
+            <h1>درباره ی ما</h1>
+            <p style="opacity: 75% ;width: 550px ;line-height: 32px ">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
+                متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            <br>
+                کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان
+                را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </p>
+            <div style="margin-left: 400px ;margin-bottom: 50px">
+                <a href="../reserve/reserve.html"><div class="button_style"><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+                <a href="../reserve/reserve.html"><div class="button_hover about_us_button " ><p class="header_text_style button_text_position1" >رزرو میز</p></div></a>
+            </div>
+            <img src="about_us2.png" align="left">
+        </div>
+        <div>
+            <video width="320" height="240" controls="controls" class="about_us_video_style">
+                <source src="about_us.mp4" type="video/mp4" />
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </div>
+</body>
+</html>

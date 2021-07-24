@@ -1,0 +1,126 @@
+.big{
+    display: none;
+}
+.small{
+    display:flex;
+    flex-direction: column-reverse;
+}
+body{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 80%;
+}
+a{
+    text-decoration: none;
+}
+.topnavBig{
+    display: none;
+}
+.topnav #menu {
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 100%;
+    display: none;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.topnav .a-nav {
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+}
+.menu_text{
+    position: absolute;
+    right: 50;
+    color: black;
+    margin-top: 40px;
+    opacity: 60%;
+}
+.topnav a.icon {
+    background: #FD3F24;
+    display: block;
+    position: absolute;
+    left: 100;
+    top: 30;
+}
+.topnav a:hover {
+    cursor: pointer;
+}
+.button_style{
+    margin-top: 8px;
+    position: absolute;
+    background-color: #FD3F24;
+    border-radius: 50px;
+    width:126px;
+    height: 43px;
+    text-align: center;
+    transition: opacity 800ms;
+
+}
+.button_style:hover{
+    opacity: 0;
+}
+.button_position{
+    align-self: center;
+    margin-right: 80px;
+}
+.button_hover{
+    margin-top: 8px;
+    position: absolute;
+    border: solid;
+    border-width: 3px;
+    border-color: #FD3F24;
+    border-radius: 50px;
+    width:120px;
+    height: 37px;
+    opacity: 50%;
+    text-align: center;
+    z-index: -1;
+    transition: opacity 800ms;
+}
+.button_hover:hover{
+    opacity: 100%;
+}
+.header_text_style{
+    font-family: Tahoma;
+    color: white;
+    font-size: 18px;
+}
+.button_text_position1{
+    margin-top: 5px;
+    color:#FD3F24 ;
+}
+.button_text_position2{
+    margin-top: 8px;
+}
+
+
+
+.logo-style {
+    margin-top: 11px;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Bangers;
+
+}
+.main_big_flex{
+    display: none;
+}
+.main_small_flex{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 150px;
+}
+.main_button_style{
+    margin-left: 40%;
+}
+.main_button_hover{
+    margin-left: 40%;
+}

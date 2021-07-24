@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="screen and (max-width: 1000px) " href="../css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 1001px)" href="../css/big.css">
+    <link rel="  stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: black;
+            background-image: url("background.png");
+        }
+        @media screen and (min-width: 1001px){
+            .reverse_button{
+                margin-top: 20px
+            }
+        }
+    </style>
+</head>
+<body>
+<script>
+    function menuFunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+</script>
+<header >
+    <div class="big header_flex" >
+        <div>
+            <a href="#"><div class="button_style"><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+            <a href="#"><div class="button_hover" style="margin-top: 20px"><p class="header_text_style_all button_text_position1">رزرو میز</p></div></a>
+        </div>
+        <div class="header_menu_flex">
+            <a href="../main_page/phase1.html" class="header_menu_flex_item header_text_style" >صفحه نخست</a>
+            <a href="../about_us/about_us.html" class="header_menu_flex_item header_text_style">درباره ما</a>
+            <a href="../our_menu/our_menu.html" class="header_menu_flex_item header_text_style">منوی رستوران</a>
+            <a href="../gallery/gallery.html" class="header_menu_flex_item header_text_style">گالری</a>
+            <a href="../contact_us/contact_us.html" class="header_menu_flex_item header_text_style">تماس با ما</a>
+        </div>
+        <div class="header_name_flex">
+            <p class="header_text_style">کافه رستوران رایکا</p>
+            <img src="header_icon.png" class="header_icon">
+        </div>
+    </div>
+
+    <div class="topnav_small ">
+        <div class="topnav small ">
+            <div id="menu" >
+                <a href="../main_page/phase1.html" target="_blank" class="a-nav"><p class="menu_text" >صفحه نخست</p></a>
+                <a href="../about_us/about_us.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 80px">درباره ی ما</p></a>
+                <a href="../our_menu/our_menu.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 110px">منوی رستوران</p></a>
+                <a href="../gallery/gallery.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 140px">گالری</p></a>
+                <a href="../contact_us/contact_us.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 170px">تماس با ما</p></a>
+                <div>
+                    <a href="reserve.html"><div class="button_style" style="margin-top: 200px" ><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+                    <a href="reserve.html"><div class="button_hover" style="margin-top: 200px" ><p class="header_text_style_all button_text_position1">رزرو میز</p></div></a>
+                </div>
+            </div>
+            <a class="icon a-nav " onclick="menuFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="topnav_name_flex " >
+            <p class="header_text_style_all">کافه رستوران رایکا</p>
+            <img src="header_icon.png" class="header_icon">
+        </div>
+    </div>
+</header>
+<div class="line big"></div>
+<div class="reserve_flex">
+    <img src="1.jpg" class="img_reserve">
+    <div class="reserve_flex_item">
+        <h1 class="reserve_text" >رزرو میز</h1>
+        <form>
+        <input type="text" class="reserve_input" placeholder="نام شما*" required>
+        <input type="email" class="reserve_input" placeholder="ایمیل*" required>
+        <input type="tel" class="reserve_input" placeholder="شماره تماس*" required>
+        <input type="text" class="reserve_input" style="height: 180px" placeholder="روز و ساعت مورد نظر و توضیحات تکمیلی">
+        <div style="margin-left: 75% ;margin-bottom: 50px">
+            <a href="#"><div class="button_style"><p class="header_text_style button_text_position2">رزرو کن</p></div></a>
+            <a href="#"><div class="button_hover reverse_button" ><p class="header_text_style_all button_text_position1 ">رزرو کن</p></div></a>
+
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="screen and (max-width: 1000px) " href="../css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 1001px)" href="../css/big.css">
+    <link rel="  stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<script>
+    function menuFunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+</script>
+<header >
+    <div class="big header_flex" >
+        <div>
+            <a href="../reserve/reserve.html"><div class="button_style"><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+            <a href="../reserve/reserve.html"><div class="button_hover" style="margin-top: 20px"><p class="header_text_style_all button_text_position1">رزرو میز</p></div></a>
+        </div>
+        <div class="header_menu_flex">
+            <a href="../main_page/phase1.html" class="header_menu_flex_item header_text_style" >صفحه نخست</a>
+            <a href="../about_us/about_us.html" class="header_menu_flex_item header_text_style">درباره ما</a>
+            <a href="../our_menu/our_menu.html" class="header_menu_flex_item header_text_style">منوی رستوران</a>
+            <a href="gallery.html" class="header_menu_flex_item header_text_style">گالری</a>
+            <a href="../contact_us/contact_us.html" class="header_menu_flex_item header_text_style">تماس با ما</a>
+        </div>
+        <div class="header_name_flex">
+            <p class="header_text_style">کافه رستوران رایکا</p>
+            <img src="header_icon.png" class="header_icon">
+        </div>
+    </div>
+
+    <div class="topnav_small ">
+        <div class="topnav small ">
+            <div id="menu" >
+                <a href="../main_page/phase1.html" target="_blank" class="a-nav"><p class="menu_text" >صفحه نخست</p></a>
+                <a href="../about_us/about_us.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 80px">درباره ی ما</p></a>
+                <a href="../our_menu/our_menu.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 110px">منوی رستوران</p></a>
+                <a href="gallery.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 140px">گالری</p></a>
+                <a href="../contact_us/contact_us.html" target="_blank" class="a-nav"><p class="menu_text" style="margin-top: 170px">تماس با ما</p></a>
+                <div>
+                    <a href="../reserve/reserve.html"><div class="button_style" style="margin-top: 200px" ><p class="header_text_style button_text_position2">رزرو میز</p></div></a>
+                    <a href="../reserve/reserve.html"><div class="button_hover" style="margin-top: 200px" ><p class="header_text_style_all button_text_position1">رزرو میز</p></div></a>
+                </div>
+            </div>
+            <a class="icon a-nav " onclick="menuFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="topnav_name_flex " >
+            <p class="header_text_style_all">کافه رستوران رایکا</p>
+            <img src="header_icon.png" class="header_icon">
+        </div>
+    </div>
+</header>
+<div class="line big"></div>
+<div>
+    <div class="gallery_flex">
+        <h1>محبوب ترین غذاها</h1>
+        <div class="gallery_flex_item">
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="1.jpg" class="gallery_img">
+            </div>
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="2.jpg" class="gallery_img">
+            </div>
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="3.jpg" class="gallery_img">
+            </div>
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="4.jpg" class="gallery_img">
+            </div>
+        </div>
+        <div class="gallery_flex_item">
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="5.jpg" class="gallery_img">
+            </div>
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="6.jpg" class="gallery_img">
+            </div>
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="7.jpg" class="gallery_img">
+            </div>
+            <div>
+                <div class="gallery_hover"><p class="gallery_text">name</p></div>
+                <img src="8.jpg" class="gallery_img">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
